@@ -153,7 +153,7 @@ public class Program {
 			return;
 		}
 		System.out.println("--------------");
-		
+		System.out.println("check exist.bin:");
 		try {//check1
 			int blockCnt = 0;
 			int posRes = 0;
@@ -181,7 +181,7 @@ public class Program {
 		}
 		
 		System.out.println("--------------");
-		
+		System.out.println("check notexist.bin:");
 		try {//check2
 			int blockCnt = 0;
 			int falsePosRes = 0;
