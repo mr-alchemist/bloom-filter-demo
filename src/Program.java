@@ -16,7 +16,7 @@ public class Program {
 	}
 	
 	void run() {
-		generateDataSet("1.avi");
+		//generateDataSet("1.avi");
 		testFilter();
 		
 	}
@@ -126,7 +126,7 @@ public class Program {
 			System.out.println(ex.getClass() + ": "+ ex.getMessage());
 			return;
 		}
-		System.out.print("Done");
+		System.out.println("Done");
 		
 	}
 	
